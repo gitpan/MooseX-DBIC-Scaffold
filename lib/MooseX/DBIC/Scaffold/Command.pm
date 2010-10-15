@@ -3,7 +3,7 @@
 
 package MooseX::DBIC::Scaffold::Command;
 BEGIN {
-  $MooseX::DBIC::Scaffold::Command::VERSION = '0.102880';
+  $MooseX::DBIC::Scaffold::Command::VERSION = '0.102881';
 }
 use Moose;
 with 'MooseX::Getopt';

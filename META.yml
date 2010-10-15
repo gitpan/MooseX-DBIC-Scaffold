@@ -24,4 +24,4 @@ requires:
   SQL::Translator: 0.001
 resources:
   repository: git://github.com/gbarr/MooseX-DBIC-Scaffold.git
-version: 0.102880
+version: 0.102881

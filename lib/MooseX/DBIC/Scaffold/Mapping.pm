@@ -3,7 +3,7 @@
 
 package MooseX::DBIC::Scaffold::Mapping;
 BEGIN {
-  $MooseX::DBIC::Scaffold::Mapping::VERSION = '0.102880';
+  $MooseX::DBIC::Scaffold::Mapping::VERSION = '0.102881';
 }
 
 use Moose;

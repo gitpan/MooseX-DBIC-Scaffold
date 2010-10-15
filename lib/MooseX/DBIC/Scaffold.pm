@@ -4,7 +4,7 @@
 
 package MooseX::DBIC::Scaffold;
 BEGIN {
-  $MooseX::DBIC::Scaffold::VERSION = '0.102880';
+  $MooseX::DBIC::Scaffold::VERSION = '0.102881';
 }
 use Moose;
 
@@ -114,6 +114,8 @@ sub column_info {
   $info{default_value}     = $column->default_value;
   $info{is_nullable}       = $column->is_nullable ? 1 : 0;
   $info{is_auto_increment} = 1 if $column->is_auto_increment;
+  $info{accessor}          = $self->column_accessor($column);
+  delete $info{accessor} if $info{accessor} eq $column->name;
 
   if ($column->has_precision) {
     $info{size} = [int $column->length, int $column->precision];
@@ -604,7 +606,7 @@ MooseX::DBIC::Scaffold - Schema class scaffold generator for DBIx::Class
 
 =head1 VERSION
 
-version 0.102880
+version 0.102881
 
 =head1 SYNOPSIS
 

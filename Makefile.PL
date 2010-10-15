@@ -40,7 +40,7 @@ my %WriteMakefileArgs = (
     'Path::Class' => '0',
     'SQL::Translator' => '0.001'
   },
-  'VERSION' => '0.102880',
+  'VERSION' => '0.102881',
   'test' => {
     'TESTS' => ''
   }
