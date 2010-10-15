@@ -1,0 +1,16 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README.md
+SIGNATURE
+bin/dbic_scaffold
+dist.ini
+inc/MakeMaker.pm
+lib/MooseX/DBIC/Scaffold.pm
+lib/MooseX/DBIC/Scaffold/Command.pm
+lib/MooseX/DBIC/Scaffold/Component.pm
+lib/MooseX/DBIC/Scaffold/Mapping.pm
+lib/MooseX/DBIC/Scaffold/Relationship.pm
